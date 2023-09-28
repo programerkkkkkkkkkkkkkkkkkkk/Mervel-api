@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Marvel</title>
+</head>
+<style type="text/css">
+
+@font-face {
+    font-family:marvel;
+    src: url("PermanentMarker-Regular.ttf");
+}
+
+@font-face {
+    font-family:opensansh;
+    src: url("OpenSansHebrew.ttf");
+}
+
+.fonte{font-family: marvel;
+color:#FAFF1D;
+font-size:200%;
+-webkit-text-stroke-width:0.8px;
+-webkit-text-stroke-color: #000;
+}
+
+.fonte1{font-family: marvel;
+color:white;
+font-size:210%;
+-webkit-text-stroke-width:0.8px;
+-webkit-text-stroke-color: #000;
+}
+
+.text{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+
+.linha{
+    background-color: black;
+    justify-content:center;
+}
+
+
+.inpu{width:50vw;
+    height:2.1em;
+}
+
+.cor{background-color: #B5CF19;}
+
+.p{font-family:opensansh;}
+
+.tamanho{height:75vmax;
+text-align: center;}
+
+@media(min-width:500px){
+   .tamanho{height:100vmax;
+text-align:center;}
+}
+
+</style>
+<body>
+    <div class="container-fluid w-100">
+<div class="pl-3 bg-light row pt-1 pb-1"> 
+    <div class="col-7 col-lg-3 text d-flex flex-column">
+        <img src="marvel.png" class=" img img-fluid">
+        <span class="fonte">App de API</span>
+        </div>
+    </div>
+
+
+<div class="row justify-content-end pr-3 cor">
+    <div class="col-auto fonte1">
+       Quadrinhos
+</div>
+</div>
+
+<div class="row linha">
+    <div class="col-6 align-items-center d-flex justify-content-center">
+<form method="post">
+    <input type="text" class="inpu">
+</form>
+    </div>
+<div class="col-auto">
+<img src="icone p.png" height="42vw" width="42vw">
+</div>
+
+
+<div class="col-12 tamanho d-flex flex-column justify-content-center align-items-center">
+    <img src="iconequadrinhos.png" class="img img-fluid" width="70%" height="70%">
+            <span class="p mt-3">Pesquise pelos seus quadrinhos favoritos da Marvel</span>
+        </div>
+
+    </div>
+</body>
+</html>

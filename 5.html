@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<title>Marvel</title>
+
+<style type="text/css">
+
+@font-face {
+    font-family:'marvel';
+    src: url(PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+    font-family:'opensanscondensed';
+    src: url(opensanscondensed.ttf);
+}
+
+.fonte{font-family:marvel;
+    color:#FAFF1D;
+    font-size:300%;
+}
+
+
+.botao{
+height:3em;
+width:50vw;
+background-color:red;
+font-family:marvel;
+color:#FAFF1D;
+font-size:150%;
+border-width:0px;
+-webkit-text-stroke-width:0.8px;
+    -webkit-text-stroke-color: #000;
+}
+
+
+@media(max-width:850px){
+   
+    .fonte{font-family:marvel;
+    color:#FAFF1D;
+    font-size:245%;
+    }
+
+    .i{width: 60%;
+    height:60%;
+    }
+
+}
+
+
+@media(max-width:500px){
+
+.fonte{font-family:marvel;
+    color:#FAFF1D;
+    font-size:200%;
+}
+}
+
+html,body{
+height:100%;
+width:100%;
+}
+
+.rowo{
+    background-image: url("fundomarvel.png");
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+input::placeholder{
+
+ font-family:opensanscondensed;
+ color: #0000005C;
+ font-size:150%;
+ 
+}
+
+.link{
+    font-family:opensanscondensed;
+ color:yellow;
+ font-size:100%;
+ text-decoration:underline;
+
+}
+
+.ola{
+    font-family:opensanscondensed;
+ color:yellow;
+ font-size:230%;
+text-align: center;
+width:80%;
+}
+
+@media(min-width:500px){
+
+    html,body{
+height:180vh;
+width:100%;
+}
+
+}
+</style>
+</head>
+<body> 
+    
+  <div class="container-fluid rowo  d-flex flex-column align-items-center justify-content-center h-100 w-100"> 
+
+  
+<div class="row d-flex justify-content-center">
+<img class="mt-5 i" src="marvel.png" width="30%" height="30%"/>
+<div class="col-12 d-flex justify-content-center">
+<span class="fonte">App de API</span>
+</div>
+</div>
+
+
+
+<div class="row justify-content-center d-flex mt-5">
+    <div class="col-12 mb-3 justify-content-center d-flex">
+ <p class="ola">Enviamos um código de 6 dígitos ao e-mail informado</p>
+</div>
+<form action="6.html">
+    <div class="col-12 d-flex justify-content-center">
+<input  type="text" maxlength="6">
+    </div>
+</div>
+
+<div class="row justify-content-center d-flex mt-5 pt-3">
+<input type="submit" class="botao" value="Confirmar">
+</form>
+</div>
+
+
+
+</div>
+
+
+
+</body>
+</html>
